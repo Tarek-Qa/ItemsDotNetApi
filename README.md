@@ -85,4 +85,4 @@ Data is persisted across container restarts using Docker volumes. This ensures t
 
 The `docker-compose.yml` file defines the services and their configurations. Both services are connected to the `apinetwork` to enable communication. Volumes are used to persist data.
 
-## Warning: you must delete the volumes file from docker if you run the app then change the Entity and want it to do auto migration. 
+## Note: you must delete the volumes file from docker if you run the app then change the Entity if you want it to do auto migration. 
